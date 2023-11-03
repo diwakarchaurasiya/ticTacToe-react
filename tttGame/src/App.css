@@ -1,0 +1,58 @@
+span{
+    color: orange;
+}
+.board{
+padding: 1rem;
+width: 25rem;
+height: 25rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.title img{
+width: 2rem;
+padding-left: 1rem;
+}
+.board img{
+    width:60%;
+}
+button span{
+    font-weight: bold;
+    font-size:3rem;
+}
+.board .boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    height: 31%;
+    background: #ffffff17;
+    border: none;
+    border-radius: .3rem;
+}
+.ticTacToeField{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:2rem;
+}
+.resetButton button{
+    width: 8rem ;
+    height: 3rem;
+    background: transparent;
+    border: 2px solid  #1B252E;
+    border-radius: .5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: .2s;
+}
+.resetButton button:hover{
+    background: #25F6C4;
+    cursor: pointer;
+}
+@media screen and (max-width:415px) {
+    
+}
